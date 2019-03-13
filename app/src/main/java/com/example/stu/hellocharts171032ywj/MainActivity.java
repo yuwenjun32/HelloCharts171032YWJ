@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
     private void initPicChart() {//饼状图
         PieChartView pieChartView=picView.findViewById(R.id.pcv_main_edu);
         int[] pieData={8,24,35,23,10};//初步数据
-        int[] color={Color.parseColor("#356fb3"),Color.parseColor("b53633"),
+        int[] color={Color.parseColor("#356fb3"),Color.parseColor("#b53633"),
                 Color.parseColor("#86aa3d"),Color.parseColor("#6a4b90"),
                 Color.parseColor("#2e9cba")};//切片颜色
         List<SliceValue> sliceValues=new ArrayList<>();
