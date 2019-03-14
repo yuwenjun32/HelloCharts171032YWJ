@@ -142,7 +142,7 @@ public class MainActivity extends AppCompatActivity {
         mViewList.add(picView);
         mViewList.add(columnView);
         List<String> mTitleList=new ArrayList<>();//定义选项卡每个卡片的标题
-        mTitleList.add("线型图");
+        mTitleList.add("折线图");
         mTitleList.add("饼状图");
         mTitleList.add("柱状图");
         ViewPagerAdapter mAdapter=new ViewPagerAdapter(mViewList,mTitleList);//定义视图页适配器
